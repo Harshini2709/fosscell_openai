@@ -1,3 +1,4 @@
+
 Issues
 1. Allocation is not checked.
    malloc can fail and return NULL. The code then writes through data, which would cause undefined behavior.
